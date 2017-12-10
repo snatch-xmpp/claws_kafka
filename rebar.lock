@@ -1,0 +1,18 @@
+{"1.1.0",
+[{<<"brod">>,{pkg,<<"brod">>,<<"3.3.4">>},0},
+ {<<"fast_xml">>,{pkg,<<"fast_xml">>,<<"1.1.24">>},1},
+ {<<"kafka_protocol">>,{pkg,<<"kafka_protocol">>,<<"1.1.1">>},1},
+ {<<"p1_utils">>,{pkg,<<"p1_utils">>,<<"1.0.10">>},2},
+ {<<"snappyer">>,{pkg,<<"snappyer">>,<<"1.2.1">>},2},
+ {<<"snatch">>,{pkg,<<"snatch">>,<<"0.1.0">>},0},
+ {<<"supervisor3">>,{pkg,<<"supervisor3">>,<<"1.1.5">>},1}]}.
+[
+{pkg_hash,[
+ {<<"brod">>, <<"19EDC99AAB2E0A02F0EBD1C924685E74D19FD2FE4794416B496786334B118F4E">>},
+ {<<"fast_xml">>, <<"66F0D9FC52A862013806C1474B3335A818A33156F68F83C6538A17B6A26DB422">>},
+ {<<"kafka_protocol">>, <<"850ACFFD00DA8143F93FAC3DE155208143217460E07D78D23013959FDF662836">>},
+ {<<"p1_utils">>, <<"A6D6927114BAC79CF6468A10824125492034AF7071ADC6ED5EBC4DDB443845D4">>},
+ {<<"snappyer">>, <<"06C5F5C8AFE80BA38E94E1CA1BD9253DE95D8F2C85B08783E8D0F63815580556">>},
+ {<<"snatch">>, <<"F48CD122D53B82B356E52F332CD2EDDA0B629DF890BF414571F682F115CB48BE">>},
+ {<<"supervisor3">>, <<"5F3C487A6EBA23DE0E64C06E93EFA0ECA06F40324A6412C1318C77ACA6DA8424">>}]}
+].
