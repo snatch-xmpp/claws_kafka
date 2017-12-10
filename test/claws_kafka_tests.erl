@@ -19,7 +19,7 @@ subscriber(Partition, Msg, ShellPid = CallbackState) ->
     {ok, ack, CallbackState}.
 
 connect() ->
-    {ok, _} = application:ensure_all_started(snatch),
+    {ok, _} = application:ensure_all_started(claws_kafka),
     ok = brod:start_client(?ENDPOINTS, ?KAFKA_CLIENT),
     ok = brod:start_producer(?KAFKA_CLIENT, ?TOPIC_OUT, []),
     {ok, PID} = brod_topic_subscriber:start_link(?KAFKA_CLIENT,
