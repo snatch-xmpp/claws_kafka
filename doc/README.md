@@ -20,7 +20,7 @@ The system requires OTP 19+ and we prefer to use [rebar3](http://www.rebar3.org)
 
 ```erlang
 {deps, [
-    {claws_kafka, "0.1.0"}
+    {claws_kafka, "0.1.1"}
 ]}
 ```
 
@@ -28,7 +28,7 @@ Or if you are using [erlang.mk](https://erlang.mk) instead, you can use:
 
 ```Makefile
 DEPS += claws_kafka
-dep_snatch = git https://github.com/snatch-xmpp/claws_kafka.git 0.1.0
+dep_snatch = hex 0.1.1
 ```
 
 You'll need a C/C++ compiler installed in your system for [fast_xml](https://github.com/processone/fast_xml) and [stringprep](https://github.com/processone/stringprep).
