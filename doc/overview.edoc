@@ -1,5 +1,5 @@
 @author "Manuel Rubio" <manuel@altenwald.com>
-@copyright 2017 Manuel Rubio
+@copyright 2017-2018 Manuel Rubio
 @title Claws Kafka
 
 @doc
@@ -16,13 +16,13 @@ Installation
 The system requires OTP 19+ and we prefer to use <a href="http://www.rebar3.org">rebar3</a> instead of older versions. To install claws_kafka only needs:
 
 <pre lang="erlang">{deps, [
-    {claws_kafka, "0.1.1"}
+    {claws_kafka, "0.2.0"}
 ]}</pre>
 
 Or if you are using [erlang.mk](https://erlang.mk) instead, you can use:
 
 <pre lang="Makefile">DEPS += claws_kafka
-dep_snatch = hex 0.1.1</pre>
+dep_snatch = hex 0.2.0</pre>
 
 You'll need a C/C++ compiler installed in your system for [fast_xml](https://github.com/processone/fast_xml) and [stringprep](https://github.com/processone/stringprep).
 

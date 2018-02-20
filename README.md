@@ -2,7 +2,7 @@
 
 # Claws Kafka #
 
-Copyright (c) 2017 Manuel Rubio
+Copyright (c) 2017-2018 Manuel Rubio
 
 __Authors:__ "Manuel Rubio" ([`manuel@altenwald.com`](mailto:manuel@altenwald.com)).
 
@@ -20,7 +20,7 @@ The system requires OTP 19+ and we prefer to use [rebar3](http://www.rebar3.org)
 
 ```erlang
 {deps, [
-    {claws_kafka, "0.1.1"}
+    {claws_kafka, "0.2.0"}
 ]}
 ```
 
@@ -28,7 +28,7 @@ Or if you are using [erlang.mk](https://erlang.mk) instead, you can use:
 
 ```Makefile
 DEPS += claws_kafka
-dep_snatch = hex 0.1.1
+dep_snatch = hex 0.2.0
 ```
 
 You'll need a C/C++ compiler installed in your system for [fast_xml](https://github.com/processone/fast_xml) and [stringprep](https://github.com/processone/stringprep).
