@@ -47,7 +47,6 @@ init(#{endpoints := Endpoints, % [{"localhost", 9092}]
             ProdConfig = [],
             ok = brod:start_producer(?KAFKA_CLIENT, OutTopic, ProdConfig)
     end,
-    SubscriberCallbackFun = fun subscriber_callback/3,
     Subscribers = lists:map(fun (InTopic) -> start_subscriber(InTopic, Opts) end,
                             InTopics),
     {ok, Opts#{subscribers => Subscribers}}.
